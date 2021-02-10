@@ -1,6 +1,6 @@
 {
   "name": "@bobthered/svelte-heroicons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Svelte component for hero icons",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
