@@ -1,7 +1,7 @@
 {
-  "name": "@bobthered/svelte-button",
+  "name": "@bobthered/svelte-heroicons",
   "version": "1.0.0",
-  "description": "Svelte component for buttons",
+  "description": "Svelte component for hero icons",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobthered/svelte-button.git"
+    "url": "git+https://github.com/bobthered/svelte-heroicons.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bobthered/svelte-button/issues"
+    "url": "https://github.com/bobthered/svelte-heroicons/issues"
   },
-  "homepage": "https://github.com/bobthered/svelte-button#readme",
+  "homepage": "https://github.com/bobthered/svelte-heroicons#readme",
   "devDependencies": {
     "rollup": "^2.38.5",
     "rollup-plugin-node-resolve": "^5.2.0",

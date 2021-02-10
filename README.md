@@ -1,37 +1,25 @@
-# @bobthered/svelte-button
+# @bobthered/svelte-heroicons
 
-Svelte component for creating buttons with tailwindcss
+Svelte component for creating hero icon components with tailwindcss
 
 ## Installation
 
 ```
-npm i -D @bobthered/svelte-button
+npm i -D @bobthered/svelte-heroicons
 ```
 
 ## Basic Usage
 
 ```
 <script>
-  import Button from '@bobthered/svelte-button'
+  import { Menu } from '@bobthered/svelte-heroicons'
 </script>
 
-<Button>Click Here</Button>
+<Menu class="h-6 w-6"/>
 ```
 
 ## Available Props
 
-| Prop          | Default                           | Description                                                      |
-| ------------- | --------------------------------- | ---------------------------------------------------------------- |
-| bg            | bg-primary-500 hover:bg-white     | Set bg class(s)                                                  |
-| cursor        | cursor-pointer                    | Set cursor class(s)                                              |
-| duration      | duration-200                      | Set duration class(s)                                            |
-| fontSize      | text-sm                           | Set font size class(s)                                           |
-| fontWeight    | font-medium                       | Set font weight class(s)                                         |
-| href          | _empty_                           | If "type" prop is set to "link" use this to set the link address |
-| outline       | focus:outline-none                | Set outline class(s)                                             |
-| padding       | py-4 px-10                        | Set padding class(s)                                             |
-| rounded       | rounded                           | Set rounded class(s)                                             |
-| textColor     | text-white hover:text-primary-500 | Set text color class(s)                                          |
-| textTransform | uppercase                         | Set text transform class(s)                                      |
-| transition    | transition                        | Set transition class(s)                                          |
-| type          | link                              | Set this to either "link" or "submit" to change node type        |
+| Prop  | Default | Description                  |
+| ----- | ------- | ---------------------------- |
+| class | _empty_ | Add classes here for styling |
