@@ -12,7 +12,7 @@ npm i -D @bobthered/svelte-heroicons
 
 ```
 <script>
-  import { Menu } from '@bobthered/svelte-heroicons'
+  import { Menu } from '@bobthered/svelte-heroicons/medium'
 </script>
 
 <Menu class="h-6 w-6"/>
