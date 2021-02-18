@@ -12,9 +12,11 @@ npm i -D @bobthered/svelte-heroicons
 
 ```
 <script>
+  import { Check } from '@bobthered/svelte-heroicons/small'
   import { Menu } from '@bobthered/svelte-heroicons/medium'
 </script>
 
+<Check class="h-5 w-5"/>
 <Menu class="h-6 w-6"/>
 ```
 
@@ -22,7 +24,8 @@ npm i -D @bobthered/svelte-heroicons
 
 | Prop  | Default | Description                  |
 | ----- | ------- | ---------------------------- |
-| class | _empty_ | Add classes here for styling |
+| class | `""` | Add classes here for styling |
+| strokeWidth | `2` | Set the stroke width for medium icons |
 
 ## Available Icons
 
